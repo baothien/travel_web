@@ -1,0 +1,112 @@
+
+
+// .container-detail-place{
+//     background-color: #F0F2F5;
+//     padding: 0 15rem;
+//     font-family: 'Montserrat', sans-serif;
+//     font-size: 1rem;
+//     min-height: 100rem;
+// }
+
+.row2-detail-place{
+    background-color: #F0F2F5;
+    padding: 0 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    min-height: 100rem;
+}
+
+.pdlr-4{
+    padding: 0 4rem;
+}
+
+.btn-fb{
+    background-color: #f0f2f5;
+    color: black;
+}
+
+.bg-img{
+  position: relative;
+  //background-image: url("https://6f3ebe2ff971707.cmccloud.com.vn/tour/wp-content/uploads/2022/03/202005171129SA19.jpeg"), linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+  height: 45rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-detail{
+    position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trapezoid {
+  border-bottom: 14rem solid #FF7424;
+  border-left: 0.8rem solid transparent;
+  border-right: 0.8rem solid transparent;
+  height: 0;
+  width: 9rem;
+}
+
+// Rating
+
+.btn-rating{
+  background-color: #FF7424;
+  width: 10rem;
+  height: 3rem;
+
+}
+
+
+// End rating
+
+//reply
+.reply-action .ant-upload-list-item-container{
+  width: 4.5rem !important;
+  height: 4.5rem !important;
+}
+
+.reply-action .ant-upload-select{
+  width: 4.5rem !important;
+  height: 4.5rem !important;
+}

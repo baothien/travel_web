@@ -1,0 +1,39 @@
+
+// Marker-in-map
+.leaflet-popup-content-wrapper{
+    padding: 0px !important;
+}
+
+// .leaflet-popup-content{
+//     width: 100%;
+// }
+
+.leaflet-popup-content{
+    width: 16rem !important;
+}
+
+// End Marker-in-map
+
+
+// search-bar
+.search-bar{
+    position: fixed;
+    z-index: 1000;
+    margin: 1rem;
+}
+
+.ant-input-affix-wrapper{
+    height: 2.5rem !important;
+}
+
+.ant-input-search-button{
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+}
+
+// end search-bar
+
+// btn place type
+
+
+// end btn place type

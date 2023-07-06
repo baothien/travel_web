@@ -1,0 +1,711 @@
+definitions:
+  api_response.ErrorInfo:
+    properties:
+      code:
+        type: integer
+      message:
+        items:
+          type: string
+        type: array
+    type: object
+  api_response.Response:
+    properties:
+      data: {}
+      error_info:
+        $ref: '#/definitions/api_response.ErrorInfo'
+      message:
+        type: string
+    type: object
+  entity.Checkin:
+    properties:
+      name:
+        type: string
+      place:
+        $ref: '#/definitions/entity.Place'
+      place_id:
+        type: string
+      url:
+        type: string
+    type: object
+  entity.ChildReview:
+    properties:
+      description:
+        type: string
+      parent_id:
+        type: string
+      review_img:
+        items:
+          $ref: '#/definitions/entity.ChildReviewImg'
+        type: array
+    type: object
+  entity.ChildReviewImg:
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+    type: object
+  entity.Place:
+    properties:
+      address:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      lat:
+        type: number
+      lng:
+        type: number
+      name:
+        type: string
+      place_img:
+        items:
+          $ref: '#/definitions/entity.PlaceImg'
+        type: array
+      place_img_checkin:
+        items:
+          $ref: '#/definitions/entity.PlaceImgCheckin'
+        type: array
+      place_type:
+        $ref: '#/definitions/entity.PlaceType'
+      place_type_id:
+        type: string
+      review:
+        items:
+          $ref: '#/definitions/entity.Review'
+        type: array
+      thumbnail:
+        type: string
+      updated_at:
+        type: string
+    type: object
+  entity.PlaceImg:
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      place_id:
+        type: string
+      url:
+        type: string
+    type: object
+  entity.PlaceImgCheckin:
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      place_id:
+        type: string
+      url:
+        type: string
+    type: object
+  entity.PlaceType:
+    properties:
+      code:
+        type: string
+      id:
+        type: string
+      name:
+        type: string
+    type: object
+  entity.Review:
+    properties:
+      description:
+        type: string
+      dislike:
+        type: integer
+      like:
+        type: integer
+      place_id:
+        type: string
+      rate:
+        type: integer
+      review_img:
+        items:
+          $ref: '#/definitions/entity.ReviewImg'
+        type: array
+    type: object
+  entity.ReviewImg:
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+    type: object
+  request.CreatePlaceImgCheckinReq:
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+    type: object
+  request.CreatePlaceImgReq:
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+    type: object
+  request.CreatePlaceReq:
+    properties:
+      address:
+        type: string
+      img:
+        items:
+          $ref: '#/definitions/request.CreatePlaceImgReq'
+        type: array
+      img_checkin:
+        items:
+          $ref: '#/definitions/request.CreatePlaceImgCheckinReq'
+        type: array
+      lat:
+        type: number
+      lng:
+        type: number
+      name:
+        type: string
+      place_type_id:
+        type: string
+      thumbnail:
+        type: string
+    type: object
+  request.CreatePlaceTypeReq:
+    properties:
+      code:
+        type: string
+      name:
+        type: string
+    type: object
+  request.FavoritePlaceAddReq:
+    properties:
+      is_favorite:
+        type: boolean
+      place_id:
+        type: string
+    type: object
+  request.UpdatePlaceImgCheckinReq:
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+    type: object
+  request.UpdatePlaceImgReq:
+    properties:
+      name:
+        type: string
+      url:
+        type: string
+    type: object
+  request.UpdatePlaceReq:
+    properties:
+      address:
+        type: string
+      img:
+        items:
+          $ref: '#/definitions/request.UpdatePlaceImgReq'
+        type: array
+      img_checkin:
+        items:
+          $ref: '#/definitions/request.UpdatePlaceImgCheckinReq'
+        type: array
+      lat:
+        type: number
+      lng:
+        type: number
+      name:
+        type: string
+      place_type_id:
+        type: string
+      thumbnail:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /checkin/create:
+    post:
+      consumes:
+      - application/json
+      description: Api lưu checkin
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/entity.Checkin'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lưu checkin
+      tags:
+      - checkin
+  /checkin/list:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy danh sách checkin
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: place_id
+        in: query
+        name: place_id
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy danh sách checkin
+      tags:
+      - checkin
+  /child-review/list/{review_id}:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy danh sách đánh giá con
+      parameters:
+      - description: review_id
+        in: path
+        name: review_id
+        required: true
+        type: string
+      - description: Limit record for getting
+        in: query
+        name: limit
+        type: string
+      - description: Current page
+        in: query
+        name: page
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy danh sách đánh giá con
+      tags:
+      - review
+  /cms/place/list:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy địa điểm cho cms
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy địa điểm cho cms
+      tags:
+      - cms
+  /place-type/create:
+    post:
+      consumes:
+      - application/json
+      description: Api tạo loại địa điểm
+      parameters:
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.CreatePlaceTypeReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api tạo loại địa điểm
+      tags:
+      - place-type
+  /place-type/list:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy loại địa điểm
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy loại địa điểm
+      tags:
+      - place-type
+  /place/create:
+    post:
+      consumes:
+      - application/json
+      description: Api tạo địa điểm
+      parameters:
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.CreatePlaceReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api tạo địa điểm
+      tags:
+      - place
+  /place/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy chi tiết địa điểm
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy chi tiết địa điểm
+      tags:
+      - place
+  /place/favorite:
+    post:
+      consumes:
+      - application/json
+      description: Api thêm yêu thích địa điểm
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.FavoritePlaceAddReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api thêm yêu thích địa điểm
+      tags:
+      - favorite
+  /place/favorite/list:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy địa điểm yêu thích
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Limit record for getting
+        in: query
+        name: limit
+        type: string
+      - description: Current page
+        in: query
+        name: page
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy địa điểm yêu thích
+      tags:
+      - favorite
+  /place/list:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy địa điểm
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy địa điểm
+      tags:
+      - place
+  /place/update/{id}:
+    patch:
+      consumes:
+      - application/json
+      description: Api cập nhật địa điểm
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdatePlaceReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api cập nhật địa điểm
+      tags:
+      - place
+  /review/child/create/{parent_id}:
+    post:
+      consumes:
+      - application/json
+      description: Api tạo phản hồi đánh giá
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: parent_id
+        in: path
+        name: parent_id
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/entity.ChildReview'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api tạo phản hồi đánh giá
+      tags:
+      - review
+  /review/create:
+    post:
+      consumes:
+      - application/json
+      description: Api tạo đánh giá địa điểm
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/entity.Review'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api tạo đánh giá địa điểm
+      tags:
+      - review
+  /review/list/{place_id}:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy đánh giá địa điểm
+      parameters:
+      - description: place_id
+        in: path
+        name: place_id
+        required: true
+        type: string
+      - description: Limit record for getting
+        in: query
+        name: limit
+        type: string
+      - description: Current page
+        in: query
+        name: page
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy đánh giá địa điểm
+      tags:
+      - review
+swagger: "2.0"

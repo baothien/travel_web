@@ -1,0 +1,61 @@
+.bg-image {
+    // background-image: url("https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/08/brazil-single-2-2.jpg");
+    background-image: url("../../../assets//img/slider-hp-1.jpg");
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+    height: 100vh; 
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.bg-text {
+    position: absolute;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    text-align: center;
+    padding: 2.2rem;
+  }
+
+.bg-btn{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 15%;
+    text-align: center;
+    color: white;
+}
+
+  .bg-color{
+    background-color: rgba(0,0,0, 0.4); 
+  }
+
+.login-form .ant-input-affix-wrapper > .ant-input:not(textarea) {
+    background-color: rgba(0,0,0,0); 
+}
+
+.login-form .ant-input-affix-wrapper > input.ant-input {
+  color: white;
+}
+
+.login-form .ant-input-password-icon.anticon{
+  color:white;
+}
+
+.login-form .ant-form-item {
+  margin-bottom: 1rem;
+}
+
+.login-form input::placeholder{
+  color: white;
+  opacity: 0.6;
+}
+

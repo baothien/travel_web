@@ -1,0 +1,88 @@
+{
+  "name": "virtual-travel",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index",
+  "typings": "dist/index",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@tensorflow/tfjs": "^3.21.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/emscripten": "^1.39.6",
+    "@types/jest": "^27.5.2",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/node": "^16.11.59",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/video-react": "^0.15.1",
+    "antd": "^5.0.7",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.2",
+    "browserify-zlib": "^0.2.0",
+    "chart.js": "^3.9.1",
+    "dayjs": "^1.11.7",
+    "fs": "^0.0.1-security",
+    "html2canvas": "^1.4.1",
+    "leaflet": "^1.9.2",
+    "nsfwjs": "^2.4.2",
+    "path-browserify": "^1.0.1",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-avatar-editor": "^13.0.0",
+    "react-compare-slider": "^2.2.0",
+    "react-debounce-input": "^3.3.0",
+    "react-dom": "^18.2.0",
+    "react-easy-crop": "^4.7.4",
+    "react-images-uploading": "^3.1.7",
+    "react-leaflet": "^4.1.0",
+    "react-pannellum": "^0.2.13",
+    "react-read-more-read-less": "^1.0.7",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.8",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.2.2",
+    "sass": "^1.55.0",
+    "stream-browserify": "^3.0.0",
+    "sweetalert2": "^11.7.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.0",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.26.0",
+    "react-app-rewired": "^2.2.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.78.0"
+  }
+}

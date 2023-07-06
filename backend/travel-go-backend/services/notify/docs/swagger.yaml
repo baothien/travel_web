@@ -1,0 +1,229 @@
+definitions:
+  api_response.ErrorInfo:
+    properties:
+      code:
+        type: integer
+      message:
+        items:
+          type: string
+        type: array
+    type: object
+  api_response.Response:
+    properties:
+      data: {}
+      error_info:
+        $ref: '#/definitions/api_response.ErrorInfo'
+      message:
+        type: string
+    type: object
+  entity.Notify:
+    properties:
+      body:
+        type: string
+      destination_id:
+        type: string
+      from_user:
+        $ref: '#/definitions/entity.User'
+      from_user_id:
+        type: string
+      is_important:
+        type: boolean
+      is_read:
+        type: boolean
+      title:
+        type: string
+      to_user:
+        $ref: '#/definitions/entity.User'
+      to_user_id:
+        type: string
+      type:
+        type: string
+    type: object
+  entity.User:
+    properties:
+      avatar:
+        type: string
+      date_of_birth:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      phone:
+        type: string
+    type: object
+  request.UpdateIsRead:
+    properties:
+      is_read:
+        type: boolean
+    type: object
+info:
+  contact: {}
+paths:
+  /notify/count:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy số thông báo chưa xem
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy số thông báo chưa xem
+      tags:
+      - notify
+  /notify/create:
+    post:
+      consumes:
+      - application/json
+      description: Api tạo thông báo
+      parameters:
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/entity.Notify'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api tạo thông báo
+      tags:
+      - notify
+  /notify/is-read/{id}:
+    patch:
+      consumes:
+      - application/json
+      description: Api update thông báo đã đọc
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdateIsRead'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api update thông báo đã đọc
+      tags:
+      - notify
+  /notify/list:
+    get:
+      consumes:
+      - application/json
+      description: Api danh sách thông báo
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Limit record for getting
+        in: query
+        name: limit
+        type: string
+      - description: Current page
+        in: query
+        name: page
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api danh sách thông báo
+      tags:
+      - notify
+  /notify/push:
+    post:
+      consumes:
+      - application/json
+      description: Api push thông  báo
+      parameters:
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/entity.Notify'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api push thông  báo
+      tags:
+      - notify
+swagger: "2.0"

@@ -1,0 +1,52 @@
+.container-home{
+    font-size: 1rem;
+};
+
+.doughnut1 {
+    position: absolute;
+    border: 1.5rem solid #EF2853;
+    border-radius: 100%;
+    height: 8rem;
+    width: 8rem;
+    bottom: 110;
+    left: 30;
+};
+
+.doughnut3 {
+    position: absolute;
+    bottom: 200;
+    left: 210;
+    width: 8rem;
+    height: 8rem;
+    border: 1.5rem solid #6C738A;
+    border-radius: 100%;
+  };
+
+.home-panel1 {
+    position: absolute;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 30rem;
+    height: 18rem;
+    background-color: #2a9d8f;
+    right: 200;
+    bottom: -50;
+  };
+  
+.home-reddot{
+    position: absolute;
+    width: 100;
+    height: 100;
+    background-color: #EF2853;
+    border-radius: 100%;
+    bottom: 10;
+    left: 30;
+  };
+
+.explore-btn{
+    top: 70%;
+    width: 12rem;
+    height: 3rem;
+}
+
+svg { vertical-align: baseline; }

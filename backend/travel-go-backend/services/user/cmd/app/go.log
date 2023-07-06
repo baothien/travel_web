@@ -1,0 +1,146 @@
+{"log.level":"DEBUG","@timestamp":"2022-11-20T21:37:40.651+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:37:40.653+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:37:55.931+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-20T21:37:55.932+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:37:55.932+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-11-20T21:38:07.968+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:38:07.971+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:38:24.843+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-20T21:38:24.843+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:38:24.843+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-11-20T21:38:40.362+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:38:40.366+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:38:44.714+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-20T21:38:44.714+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-20T21:38:44.714+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-11-24T23:45:05.659+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:45:05.663+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:46:37.229+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-24T23:46:37.230+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:46:37.230+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-11-24T23:46:44.513+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:46:44.516+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:47:04.962+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-24T23:47:04.962+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:47:04.962+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-11-24T23:47:11.463+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:47:11.467+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:47:21.780+0700","message":"crypto/bcrypt: hashedSecret too short to be a bcrypted password"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:47:55.705+0700","message":"crypto/bcrypt: hashedSecret too short to be a bcrypted password"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:49:58.040+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-24T23:49:58.041+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:49:58.041+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-11-24T23:50:04.041+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:04.044+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:07.086+0700","message":"crypto/bcrypt: hashedSecret too short to be a bcrypted password"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:20.270+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:20.270+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2022-11-24T23:50:20.270+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2022-11-24T23:50:24.017+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:24.019+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:27.787+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-11-24T23:50:27.787+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-11-24T23:50:27.787+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-06T21:53:55.572+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:53:55.576+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:54:29.693+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-06T21:54:29.694+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:54:29.694+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-06T21:54:34.372+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:54:34.375+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:54:52.894+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-06T21:54:52.894+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:54:52.894+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-06T21:54:56.982+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:54:56.986+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:55:48.571+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU2OTg5NDB9.nZaFNaHDtIpNdPo5Rmaonnm2hONZxZjMDRV6RQoa5W4"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:56:20.171+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-06T21:56:20.171+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-06T21:56:20.171+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-06T22:13:16.554+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:13:16.558+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:13:59.210+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU2OTg5NDB9.nZaFNaHDtIpNdPo5Rmaonnm2hONZxZjMDRV6RQoa5W4"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:14:10.661+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU2OTg5NDB9.nZaFNaHDtIpNdPo5Rmaonnm2hONZxZjMDRV6RQoa5W4"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:14:48.235+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-06T22:14:48.235+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:14:48.235+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-06T22:15:11.717+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:15:11.722+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:15:21.667+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU2OTg5NDB9.nZaFNaHDtIpNdPo5Rmaonnm2hONZxZjMDRV6RQoa5W4"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:16:31.218+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-06T22:16:31.220+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-06T22:16:31.220+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T23:43:06.107+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:43:06.111+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:43:33.376+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:43:33.377+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T23:43:33.377+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T23:43:40.976+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:43:40.978+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:10.945+0700","message":"HandleSearch","request":"{\n  \"avatar\": \"\",\n  \"date_of_birth\": \"\",\n  \"email\": \"\",\n  \"full_name\": \"Xuan Huy\",\n  \"password\": \"\",\n  \"phone\": \"\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU5NjQ2MjZ9.-l9t9hZBkAgJTOXoSGNwWuhdSv-nmE_hnS16gVf5mPs"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:34.395+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T23:44:34.396+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:34.396+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T23:44:40.460+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:40.463+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:47.898+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:47.898+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T23:44:47.898+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T23:44:52.219+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:52.222+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:44:55.102+0700","message":"HandleSearch","request":"{\n  \"avatar\": \"\",\n  \"date_of_birth\": \"\",\n  \"email\": \"\",\n  \"full_name\": \"Xuan Huy\",\n  \"password\": \"\",\n  \"phone\": \"\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU5NjQ2MjZ9.-l9t9hZBkAgJTOXoSGNwWuhdSv-nmE_hnS16gVf5mPs"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:45:06.636+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T23:45:06.637+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:45:06.637+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-11T15:47:03.114+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-11T15:47:03.119+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-11T15:47:36.447+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IiIsIkRldmljZUlkIjoiIiwiZXhwIjoxNjc5NzA1MjQwfQ.nEKrefHWFLQeokrINx9lZao_4-Z7QsmBDKK74sG1cLs"}
+{"log.level":"INFO","@timestamp":"2023-02-11T15:47:39.233+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-11T15:47:39.234+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-11T15:47:39.234+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:28:30.280+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:28:30.284+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:28:49.385+0700","message":"HandleSearch","request":"{\n  \"new_password\": \"string\",\n  \"old_password\": \"string\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:28:49.397+0700","message":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:01.361+0700","message":"HandleSearch","request":"{\n  \"new_password\": \"lPbtgmKE1aWsBTsb\",\n  \"old_password\": \"lPbtgmKE1aWsBTsb\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:04.759+0700","message":"HandleSearch","request":"{\n  \"new_password\": \"lPbtgmKE1aWsBTsb1\",\n  \"old_password\": \"lPbtgmKE1aWsBTsb\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:08.927+0700","message":"HandleSearch","request":"{\n  \"new_password\": \"lPbtgmKE1aWsBTsb1\",\n  \"old_password\": \"lPbtgmKE1aWsBTsb\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:08.935+0700","message":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:22.193+0700","message":"HandleSearch","request":"{\n  \"new_password\": \"lPbtgmKE1aWsBTsb\",\n  \"old_password\": \"lPbtgmKE1aWsBTsb1\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:23.691+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:29:23.692+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:29:23.692+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-03-25T20:45:24.906+0700","message":"Error auto migrate db"}
+{"log.level":"DEBUG","@timestamp":"2023-03-25T20:47:57.739+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:47:57.744+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:53:25.665+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-03-25T20:53:25.666+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:53:25.666+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-03-25T20:53:32.751+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:53:32.753+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:53:43.584+0700","message":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:54:42.219+0700","message":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:55:43.587+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-03-25T20:55:43.587+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:55:43.587+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-03-25T20:55:48.866+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:55:48.868+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:00.791+0700","message":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:06.123+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:06.123+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-03-25T20:56:06.123+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-03-25T20:56:10.339+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:10.341+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:24.126+0700","message":"crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:46.147+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:46.147+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-03-25T20:56:51.006+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:51.008+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:59.551+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-03-25T20:56:59.551+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:56:59.551+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-03-25T20:57:11.502+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:57:11.505+0700","message":"Starting server: user-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:57:31.010+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-03-25T20:57:31.011+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-03-25T20:57:31.011+0700","message":"Server has graceful shutdown completely"}

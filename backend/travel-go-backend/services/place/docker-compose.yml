@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  place:
+    image: registry.gitlab.com/cabx2/cabx-go-backend/place:latest
+    ports:
+      - "8000:80"
+    restart: unless-stopped

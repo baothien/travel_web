@@ -1,0 +1,475 @@
+{"log.level":"DEBUG","@timestamp":"2022-10-21T20:14:30.231+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:14:30.236+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:14:47.692+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-21T20:14:47.693+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:14:47.693+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-21T20:14:52.238+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:14:52.241+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:15:37.849+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-21T20:15:37.849+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:15:37.849+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-21T20:15:43.598+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:15:43.602+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:20:35.203+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-21T20:20:35.203+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-21T20:20:35.203+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:10:09.011+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:10:09.013+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:14:10.503+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:14:10.504+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:14:10.504+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:14:16.610+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:14:16.613+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:15:15.949+0700","message":"Error create place type","error":"ERROR: duplicate key value violates unique constraint \"place_types_code_key\" (SQLSTATE 23505)"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:15:56.170+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:15:56.170+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:15:56.170+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:16:01.827+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:16:01.830+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:22:55.025+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:22:55.025+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:22:55.025+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:23:10.381+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:23:10.383+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:25:29.718+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:25:29.719+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:25:29.719+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:45:47.108+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:45:47.111+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:45:56.593+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:45:56.593+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:45:56.593+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:46:00.686+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:46:00.689+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:47:16.978+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:47:16.978+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:47:16.978+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:47:25.554+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:47:25.557+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:47:49.054+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:47:49.054+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:47:49.054+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:47:53.214+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:47:53.216+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:48:58.481+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:48:58.481+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:48:58.481+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2022-10-22T21:49:06.368+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:49:06.370+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:49:17.571+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2022-10-22T21:49:17.571+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2022-10-22T21:49:17.571+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T09:14:59.405+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T09:14:59.411+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T10:22:12.854+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T10:22:12.855+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T10:22:12.855+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:09:25.164+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:09:25.169+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:11:28.953+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:11:28.954+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:11:28.954+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:11:46.330+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:11:46.333+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:12:04.548+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:12:04.548+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:12:04.548+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:12:19.961+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:12:19.964+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:12:40.540+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:12:40.541+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:12:40.541+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:12:53.001+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:12:53.005+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:13:36.086+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:13:36.086+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:13:36.086+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:13:49.397+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:13:49.401+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:14:32.331+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:16:57.817+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:16:57.817+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:16:57.817+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:28:16.779+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:28:16.784+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:15.764+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:29:15.765+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:15.765+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:29:33.818+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:33.821+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:37.361+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp quá\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:38.283+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp quá\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:38.914+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp quá\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:29:39.430+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp quá\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:32:36.804+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:32:36.805+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:32:36.805+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:33:42.661+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:33:42.666+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:33:56.684+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    },\n {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    },\n {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    },\n {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:33:57.107+0700","message":"Error create review","error":"ERROR: insert or update on table \"review_imgs\" violates foreign key constraint \"fk_child_reviews_review_img\" (SQLSTATE 23503)"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:35:56.535+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:35:56.535+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:35:56.535+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:36:14.891+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:36:14.895+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:36:17.288+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    },\n {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    },\n {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    },\n {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:36:17.654+0700","message":"Error create review","error":"ERROR: insert or update on table \"review_imgs\" violates foreign key constraint \"fk_child_reviews_review_img\" (SQLSTATE 23503)"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:36:43.424+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:36:43.848+0700","message":"Error create review","error":"ERROR: insert or update on table \"review_imgs\" violates foreign key constraint \"fk_child_reviews_review_img\" (SQLSTATE 23503)"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:40:20.192+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:40:20.193+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:40:20.193+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:42:30.051+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:42:30.056+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:42:32.762+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:42:33.121+0700","message":"Error create review","error":"ERROR: insert or update on table \"review_imgs\" violates foreign key constraint \"fk_child_reviews_review_img\" (SQLSTATE 23503)"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:42:39.224+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:42:39.224+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:42:39.224+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-07T13:42:59.128+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:42:59.132+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:43:27.341+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:43:29.714+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:43:30.673+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:43:31.316+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:43:31.807+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:43:32.491+0700","message":"HandleSearch","request":"{\n  \"description\": \"Địa điểm đẹp\",\n  \"place_id\": \"171f3922-5214-11ed-bcd1-acde48001122\",\n  \"rate\": 5,\n  \"review_img\": [\n    {\n      \"name\": \"Ảnh đẹp\",\n      \"url\": \"https://images.unsplash.com/photo-1500828131278-8de6878641b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzU3NTM4OTl9.VtjxJAJJjaxc5rLhA98NR3dolyXTWv3OjC7jx5RsINY"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:44:11.348+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-07T13:44:11.349+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-07T13:44:11.349+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T20:57:12.676+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:57:12.681+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:57:28.808+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T20:57:28.808+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:57:28.808+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T20:57:33.223+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:57:33.226+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:58:20.738+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T20:58:20.738+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:58:20.738+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T20:58:25.985+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:58:25.987+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:58:50.828+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T20:58:50.828+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-09T20:58:50.828+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-09T21:00:13.756+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-09T21:00:13.758+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:27:58.302+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-09T23:27:58.302+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-09T23:27:58.302+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-10T09:32:39.481+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:32:39.483+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:33:03.494+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:33:03.494+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-10T09:33:03.494+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-10T09:33:11.727+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:33:11.729+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:33:49.776+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:33:49.777+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-10T09:33:49.777+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-10T09:33:58.316+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:33:58.320+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:40:01.302+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-10T09:40:01.302+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:40:01.302+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-10T09:40:06.077+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:40:06.079+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"ERROR","@timestamp":"2023-02-10T09:40:16.513+0700","message":"Error update place","error":"unsupported data type: <nil>"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:41:31.092+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-10T09:41:31.092+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:41:31.092+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-10T09:41:35.766+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:41:35.770+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:41:55.396+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-10T09:41:55.396+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-10T09:41:55.396+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-12T22:18:48.592+0700","message":"can not connect database"}
+{"log.level":"DEBUG","@timestamp":"2023-02-12T22:25:29.471+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:25:29.476+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:26:26.329+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-12T22:26:26.330+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:26:26.330+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-12T22:26:30.520+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:26:30.523+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:27:28.029+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-12T22:27:28.030+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:27:28.030+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-12T22:27:32.172+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:27:32.176+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:27:50.919+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:27:50.919+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-12T22:27:50.919+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-12T22:27:55.040+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:27:55.043+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:28:55.856+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-12T22:28:55.856+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:28:55.856+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-12T22:29:00.649+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:29:00.654+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:29:30.923+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-12T22:29:30.923+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-12T22:29:30.923+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-14T16:06:46.584+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:06:46.587+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:07:24.545+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-14T16:07:24.546+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:07:24.546+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-14T16:07:48.255+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:07:48.258+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:09:34.664+0700","message":"HandleSearch","request":"{\n  \"description\": \"Chỗ này đẹp mà bạn\",\n  \"parent_id\": \"994a61d1-aa39-11ed-9a27-0242ac1c0008\",\n  \"review_img\": [\n    {\n      \"name\": \"ảnh nè\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/review/98125ac5-aa39-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzYzNjkyMjJ9.NKISM8tEz3a417Wij-tMv650gYuvYp-XVLnYrMqI2Hw"}
+{"log.level":"ERROR","@timestamp":"2023-02-14T16:09:35.505+0700","message":"Error create review","error":"ERROR: insert or update on table \"child_reviews\" violates foreign key constraint \"fk_reviews_child_review\" (SQLSTATE 23503)"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:10:00.442+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-14T16:10:00.442+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:10:00.442+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-14T16:10:39.250+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:10:39.253+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:11:03.250+0700","message":"HandleSearch","request":"{\n  \"description\": \"Chỗ này đẹp mà bạn\",\n  \"parent_id\": \"994a61d1-aa39-11ed-9a27-0242ac1c0008\",\n  \"review_img\": [\n    {\n      \"name\": \"ảnh nè\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/review/98125ac5-aa39-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzYzNjkyMjJ9.NKISM8tEz3a417Wij-tMv650gYuvYp-XVLnYrMqI2Hw"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:13:03.129+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-14T16:13:03.129+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:13:03.129+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-14T16:13:22.423+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:13:22.427+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:13:39.897+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đúng rồi, chỗ này đẹp\",\n  \"parent_id\": \"994a61d1-aa39-11ed-9a27-0242ac1c0008\",\n  \"review_img\": [\n    {\n      \"name\": \"ảnh nè\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/review/98125ac5-aa39-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzYzNjkyMjJ9.NKISM8tEz3a417Wij-tMv650gYuvYp-XVLnYrMqI2Hw"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:13:57.305+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-14T16:13:57.306+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-14T16:13:57.306+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T21:31:27.329+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:31:27.334+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:33:03.220+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T21:33:03.223+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:33:03.223+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T21:33:35.965+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:33:35.969+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:38:22.353+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"string\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:39:44.937+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T21:39:44.938+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:39:44.938+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T21:39:49.570+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:39:49.572+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:40:05.546+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"string\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:40:20.066+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"string\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:42:38.787+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T21:42:38.787+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T21:42:38.787+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:13:01.698+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:13:01.703+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:13:21.147+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:13:21.147+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:13:21.147+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:13:26.313+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:13:26.317+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:16:18.447+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:17:46.590+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:17:46.590+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:17:46.590+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:17:53.182+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:17:53.185+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:18:02.379+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:20:20.878+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:20:20.878+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:20:20.878+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:20:26.651+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:20:26.653+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:20:30.482+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:21:24.900+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:21:24.900+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:21:24.900+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:21:29.930+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:21:29.933+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:21:32.839+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:22:14.492+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:22:14.492+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:22:14.492+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:22:19.154+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:22:19.156+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:22:22.750+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:23:29.562+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:23:29.562+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:23:29.562+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-22T22:23:34.955+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:23:34.959+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:23:37.012+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:23:49.044+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:24:08.830+0700","message":"HandleSearch","request":"{\n  \"description\": \"Đẹp nha\",\n  \"parent_id\": \"bd138a34-a6b2-11ed-8b0a-acde48001122\",\n  \"review_img\": [\n    {\n      \"name\": \"string\",\n      \"url\": \"https://travel-api.huytx.com/stag/upload-service/files/avatar/8032e203-ac85-11ed-98b0-0242c0a80002.jpeg\"\n    }\n  ]\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzcwODAxMDB9.z0bxnd8FcaRTl7Nxtj8N3dBYVaVHlztTXggC0gi-cw0"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:24:23.648+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-22T22:24:23.649+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-22T22:24:23.649+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T15:46:11.936+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:46:11.941+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:54:15.183+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T15:54:15.183+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:54:15.183+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T15:54:37.407+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:54:37.409+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:55:18.642+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:56:07.460+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T15:56:07.460+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:56:07.460+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T15:56:12.875+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:56:12.879+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:56:18.491+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:58:08.208+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T15:58:08.208+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:58:08.208+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T15:58:14.006+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:58:14.009+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:58:19.022+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:58:31.467+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-25T15:58:31.467+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T15:58:31.467+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:04:47.495+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:04:47.499+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:05:19.158+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:05:19.159+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:05:19.159+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:05:24.467+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:05:24.470+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:05:33.250+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:05.536+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:06:05.537+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:05.537+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:06:10.311+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:10.313+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:16.215+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:45.168+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:06:45.168+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:45.168+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:06:49.585+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:49.587+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:06:51.023+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:07:11.243+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:07:11.244+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:07:11.244+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:07:15.565+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:07:15.567+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:07:16.822+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:07:46.152+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:07:46.196+0700","message":"error add favorite place","error":"ERROR: duplicate key value violates unique constraint \"userplace_favorites_pkey\" (SQLSTATE 23505)"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:10:54.711+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:10:54.711+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:10:54.711+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:11:00.028+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:11:00.031+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:11:18.159+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": false\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:11:18.177+0700","message":"error add favorite place","error":"ERROR: duplicate key value violates unique constraint \"userplace_favorites_pkey\" (SQLSTATE 23505)"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:11:39.488+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:11:39.488+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:11:39.488+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:11:58.833+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:11:58.837+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:12:00.823+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": false\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:12:12.243+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": false\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:12:18.271+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:12:24.566+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:12:24.578+0700","message":"error add favorite place","error":"ERROR: duplicate key value violates unique constraint \"userplace_favorites_pkey\" (SQLSTATE 23505)"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:11.097+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:13:11.097+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:11.097+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:13:15.615+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:15.618+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:17.914+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:13:17.931+0700","message":"error add favorite place","error":"ERROR: duplicate key value violates unique constraint \"userplace_favorites_pkey\" (SQLSTATE 23505)"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:21.880+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": false\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:24.927+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": false\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:32.801+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:33.889+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:13:33.901+0700","message":"error add favorite place","error":"ERROR: duplicate key value violates unique constraint \"userplace_favorites_pkey\" (SQLSTATE 23505)"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:44.806+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:13:44.806+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:44.806+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:13:49.419+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:49.422+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:13:51.103+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:15:28.156+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:15:28.157+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:15:28.157+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:15:34.070+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:15:34.072+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:15:35.740+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:15:35.741+0700","message":"error add favorite place","error":"model value required; model value required"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:15:36.873+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:15:36.874+0700","message":"error add favorite place","error":"model value required; model value required"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:02.331+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:02.332+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:16:02.332+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"DEBUG","@timestamp":"2023-02-25T16:16:07.848+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:07.851+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:10.285+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:12.337+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:12.812+0700","message":"HandleSearch","request":"{\n  \"place_id\": \"ea5a68b3-8a8e-11ed-b9a4-0242ac1c0008\",\n  \"is_favorite\": true\n\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI0ZmJjNzc3Yy1hNjJlLTExZWQtOGU0NS1hY2RlNDgwMDExMjIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2NzczMTg4OTV9.ewlTI0h-eihLVIojemNdwA661nJ65C6He7GRD0UtKIg"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:13.767+0700","message":"Server is shuting down"}
+{"log.level":"ERROR","@timestamp":"2023-02-25T16:16:13.767+0700","message":"Server has failed graceful shutdown","error":"context deadline exceeded"}
+{"log.level":"INFO","@timestamp":"2023-02-25T16:16:13.767+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:14:07.292+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:14:07.297+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:14:45.463+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:14:45.464+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:14:53.148+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:14:53.150+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:15:31.064+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:15:31.065+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:15:40.051+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:15:40.055+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:15:51.122+0700","message":"HandleSearch","request":"{\n  \"name\": \"string\",\n  \"place_id\": \"string\",\n  \"url\": \"string\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJhZmEyZDNmYy1jYjE1LTExZWQtOTY3NC0wMjQyYWMxYzAwMDIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2ODE0MDI1MDF9.vwlXS1xgWVhTRXgj8RiOvjKNaskbIEoddZM4-bExo8U"}
+{"log.level":"ERROR","@timestamp":"2023-04-13T22:15:51.140+0700","message":"Error create review","error":"ERROR: insert or update on table \"reviews\" violates foreign key constraint \"fk_places_review\" (SQLSTATE 23503)"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:16:38.268+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:16:38.269+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:16:43.404+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:16:43.406+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:16:53.928+0700","message":"HandleSearch","request":"{\n  \"name\": \"string\",\n  \"place_id\": \"string\",\n  \"url\": \"string\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJhZmEyZDNmYy1jYjE1LTExZWQtOTY3NC0wMjQyYWMxYzAwMDIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2ODE0MDI1MDF9.vwlXS1xgWVhTRXgj8RiOvjKNaskbIEoddZM4-bExo8U"}
+{"log.level":"ERROR","@timestamp":"2023-04-13T22:16:53.935+0700","message":"Error create checkin","error":"ERROR: relation \"checkins\" does not exist (SQLSTATE 42P01)"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:17:24.289+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:17:24.290+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:17:29.425+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:17:29.430+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:17:50.188+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:17:50.188+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:17:55.005+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:17:55.007+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:07.019+0700","message":"HandleSearch","request":"{\n  \"name\": \"string\",\n  \"place_id\": \"string\",\n  \"url\": \"string\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJhZmEyZDNmYy1jYjE1LTExZWQtOTY3NC0wMjQyYWMxYzAwMDIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2ODE0MDI1MDF9.vwlXS1xgWVhTRXgj8RiOvjKNaskbIEoddZM4-bExo8U"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:13.952+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJhZmEyZDNmYy1jYjE1LTExZWQtOTY3NC0wMjQyYWMxYzAwMDIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2ODE0MDI1MDF9.vwlXS1xgWVhTRXgj8RiOvjKNaskbIEoddZM4-bExo8U"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:34.855+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:34.855+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-13T22:18:41.721+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:41.723+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:45.123+0700","message":"HandleSearch","request":"{\n  \"name\": \"string\",\n  \"place_id\": \"string\",\n  \"url\": \"string\"\n}","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJhZmEyZDNmYy1jYjE1LTExZWQtOTY3NC0wMjQyYWMxYzAwMDIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2ODE0MDI1MDF9.vwlXS1xgWVhTRXgj8RiOvjKNaskbIEoddZM4-bExo8U"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:47.646+0700","message":"HandleSearch","request":"","header":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJhZmEyZDNmYy1jYjE1LTExZWQtOTY3NC0wMjQyYWMxYzAwMDIiLCJVc2VyVHlwZSI6IkNVU1RPTUVSIiwiRGV2aWNlSWQiOiIiLCJleHAiOjE2ODE0MDI1MDF9.vwlXS1xgWVhTRXgj8RiOvjKNaskbIEoddZM4-bExo8U"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:51.180+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-13T22:18:51.180+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:13:24.405+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:13:24.414+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:13:44.527+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:13:44.528+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:13:49.756+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:13:49.760+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:23:55.952+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:23:55.953+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:24:03.289+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:24:03.294+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:25:57.172+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:25:57.173+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:26:02.030+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:26:02.034+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:26:48.808+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:26:48.808+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:26:53.383+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:26:53.386+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:27:46.738+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:27:46.738+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:27:51.952+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:27:51.955+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:31:25.483+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:31:25.483+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T18:31:31.270+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:31:31.273+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:31:55.502+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T18:31:55.502+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T20:12:22.598+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T20:12:22.601+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T20:13:05.571+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T20:13:05.572+0700","message":"Server has graceful shutdown completely"}
+{"log.level":"DEBUG","@timestamp":"2023-04-15T20:15:09.493+0700","message":"Migrate successfully."}
+{"log.level":"INFO","@timestamp":"2023-04-15T20:15:09.498+0700","message":"Starting server: place-service with Insecure, and listen at port: 80"}
+{"log.level":"INFO","@timestamp":"2023-04-15T20:25:22.446+0700","message":"Server is shuting down"}
+{"log.level":"INFO","@timestamp":"2023-04-15T20:25:22.447+0700","message":"Server has graceful shutdown completely"}

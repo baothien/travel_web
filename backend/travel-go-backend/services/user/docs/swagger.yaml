@@ -1,0 +1,327 @@
+definitions:
+  api_response.ErrorInfo:
+    properties:
+      code:
+        type: integer
+      message:
+        items:
+          type: string
+        type: array
+    type: object
+  api_response.Response:
+    properties:
+      data: {}
+      error_info:
+        $ref: '#/definitions/api_response.ErrorInfo'
+      message:
+        type: string
+    type: object
+  entity.User:
+    properties:
+      avatar:
+        type: string
+      date_of_birth:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      password:
+        type: string
+      phone:
+        type: string
+    type: object
+  request.ChangePassReq:
+    properties:
+      new_password:
+        type: string
+      old_password:
+        type: string
+    type: object
+  request.LoginReq:
+    properties:
+      password:
+        example: lPbtgmKE1aWsBTsb
+        type: string
+      user_name:
+        example: huy@mgmail.com
+        type: string
+    required:
+    - password
+    - user_name
+    type: object
+  request.UpdateUserReq:
+    properties:
+      avatar:
+        type: string
+      date_of_birth:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      phone:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /user/change-pass:
+    patch:
+      consumes:
+      - application/json
+      description: API đổi mật khẩu
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.ChangePassReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: API đổi mật khẩu
+      tags:
+      - account
+  /user/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Api chi tiết người dùng
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api chi tiết người dùng
+      tags:
+      - account
+  /user/list:
+    get:
+      consumes:
+      - application/json
+      description: Api lấy danh sách người dùng
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: Limit record for getting
+        in: query
+        name: limit
+        type: string
+      - description: Current page
+        in: query
+        name: page
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api lấy danh sách người dùng
+      tags:
+      - account
+  /user/login:
+    post:
+      consumes:
+      - application/json
+      description: Api đăng nhập
+      parameters:
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.LoginReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api đăng nhập
+      tags:
+      - account
+  /user/profile:
+    get:
+      consumes:
+      - application/json
+      description: Api get profile
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Api get profile
+      tags:
+      - account
+    patch:
+      consumes:
+      - application/json
+      description: API cập nhật thông tin tài khoản
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/request.UpdateUserReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: API cập nhật thông tin tài khoản
+      tags:
+      - account
+  /user/refresh-token:
+    get:
+      consumes:
+      - application/json
+      description: Api refresh token cho người dùng
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: api refresh token for customer
+      tags:
+      - account
+  /user/register:
+    post:
+      consumes:
+      - application/json
+      description: Api yêu cầu tạo tài khoản khách hàng
+      parameters:
+      - description: request
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/entity.User'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/api_response.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/api_response.Response'
+      summary: Request register account customer
+      tags:
+      - account
+swagger: "2.0"

@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  notify:
+    image: registry.gitlab.com/cabx2/cabx-go-backend/notify:latest
+    ports:
+      - "8000:80"
+    restart: unless-stopped

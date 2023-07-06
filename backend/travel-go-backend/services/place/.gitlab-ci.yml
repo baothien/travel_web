@@ -1,0 +1,59 @@
+
+variables:
+  PROJECT_NAME: "place"
+  PROJECT: "./services/place"
+  PATH_TO_PROJECT: "/home/virtual-travel/place-service"
+
+before_script:
+  - export GOPATH=${CI_PROJECT_DIR}/.cache
+  - export PATH="${PATH}:${GOPATH}/bin"
+
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  cache: &build_cache
+    key: build
+    paths:
+      - .cache
+  image: docker:19
+  services:
+    - docker:dind
+  before_script:
+    - docker version
+    - echo $PROJECT
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - ls -al ./.cache || true
+    - mkdir -p .cache
+    - docker pull $CI_REGISTRY_IMAGE/${PROJECT_NAME}:latest || true
+    - docker build --build-arg PROJECT=${PROJECT} --cache-from $CI_REGISTRY_IMAGE/${PROJECT_NAME}:latest --tag $CI_REGISTRY_IMAGE/${PROJECT_NAME}:latest .
+    - docker push $CI_REGISTRY_IMAGE/${PROJECT_NAME}:latest
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - "which ssh-agent || ( apk add openssh-client )"
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - chmod 700 ~/.ssh
+  script:
+    - >
+      ssh $SSH_USER@$SSH_SERVER_IP
+      "sudo docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY};
+      cd ${PATH_TO_PROJECT};
+      sudo docker-compose down;
+      sudo docker pull ${CI_REGISTRY_IMAGE}/${PROJECT_NAME}:latest;
+      sudo docker-compose up -d;
+      sudo docker image prune -f;"
+  only:
+    - master
